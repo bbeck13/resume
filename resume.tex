@@ -1,0 +1,105 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Braden Beck} % Your name
+%\address{B-1 \\ II , U.P. 208016} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+%\address{(+1)~7hh~9~8486 \\ x@ii.yzac.in} % Your phone number and email
+\address{(+1)808-635-3399 \\ bradabraden@gmail.com \\ github.com/bbeck13}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf California Polytechnic State University} \hfill {\em Sep 2013 - Jun 2017} 
+\\ Bachelor of Science
+\\ Computer Science - College of Engineering 
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Strengths}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Computer Languages & Java, JavaScript, C/C++, Python  \\
+Software \& Tools & LaTeX, bash, vim, React, SQL, AWS, GNU + Linux \\
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{Amazon San Luis Obispo}{Jan 2016 - Jun 2017}{Intern}{}
+\item Worked to build a generative testing framework for modeling and generating tests for software systems in the Prime organization. 
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Amazon Prime}{August 2017 - August 2018}{Software Development Engineer}{}
+\item Worked in a team that worked with accounting systems for Amazon Prime and managed the source of data for information about Prime Plans.
+\item Migrated accounting reconciliation data off of oracle to postgres rds while maintaining SOX compliance.
+\item Managed data for Prime Plans, maintained and developed website with tooling around Prime Plans including visualizing renewal logic around plans. 
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Amazon Last Mile Technology}{August 2018 - Present}{Software Development Engineer}{}
+\item Worked in a team thtat managed defining and managing GIS data for Amazon delivery Stations 
+\item Created system to algorithmically simplify and propagate GeoJson data to downstream systems to affect package labeling and ultimately drive roll-out of a new routing model for all Amazon Delivery Stations in the United States and Europe.
+\item Worked with React based web front end that allowed users to define geographic areas for Delivery Stations
+\end{rSubsection}
+\end{rSection}
+
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Academic Achievements} \itemsep -2pt
+\item Deans List for 4 quarters (when I took only CS classes)
+\item TA for 2 years for the "hardest class in the major". Taught a lot of students about systems programming, I believe anyone can learn CS if they just apply themselves
+\item 
+\end{rSection}
+
+\begin{rSection}{Projects} \itemsep -2pt
+\begin{rSubsection}{RhythmRunner}{github.com/bbeck13/RhythmRunner}{c++/opengl}{}
+\item Organized and manged small group project to create a cross platform video game using opengl
+\item Created level editor / procedural generated levels based on audio signals so that players movement was in time with music
+
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Extra-Curricular}
+\begin{rSubsection} {Outrigger Canoeing}{}{}{}
+\item I compete in paddling and sailing races in outrigger canoes Hawaii, Tahiti, and Southern California I've even been to one in Canada. 
+\end{rSubsection}
+\end{rSection}
+\end{document}
