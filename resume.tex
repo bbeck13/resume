@@ -13,6 +13,7 @@
 \documentclass{resume} % Use the custom resume.cls style
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{hyperref}
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \name{Braden Beck} % Your name
@@ -58,13 +59,13 @@ Software \& Tools & LaTeX, bash, vim, React, RDS/SQL, AWS, JTS/JSTS, GNU + Linux
 
 \begin{rSection}{Experience}
 
-\begin{rSubsection}{Amazon San Luis Obispo}{Jan 2016 - Jun 2017}{Intern}{}
+\begin{rSubsection}{Amazon San Luis Obispo}{\em Jan 2016 - Jun 2017}{Intern}{}
 \item Worked to build a generative testing framework for modeling and generating tests for software systems in the Prime organization. 
 \end{rSubsection}
 
 %------------------------------------------------
 
-\begin{rSubsection}{Amazon Prime}{August 2017 - August 2018}{Software Development Engineer}{}
+\begin{rSubsection}{Amazon Prime}{\em August 2017 - August 2018}{Software Development Engineer}{}
 \item Worked in a team that worked with accounting systems for Amazon Prime and managed the source of data for information about Prime Plans.
 \item Migrated accounting reconciliation data off of oracle to postgres rds while maintaining SOX compliance.
 \item Managed data for Prime Plans, maintained and developed website with tooling around Prime Plans including visualizing renewal logic around plans. 
@@ -72,8 +73,8 @@ Software \& Tools & LaTeX, bash, vim, React, RDS/SQL, AWS, JTS/JSTS, GNU + Linux
 
 %------------------------------------------------
 
-\begin{rSubsection}{Amazon Last Mile Technology}{August 2018 - Present}{Software Development Engineer}{}
-\item Worked in a team thtat managed defining and managing GIS data for Amazon delivery Stations 
+\begin{rSubsection}{Amazon Last Mile Technology}{\em August 2018 - Present}{Software Development Engineer Level 5}{}
+\item Managed defining and managing GIS data for Amazon delivery Stations
 \item Created system to algorithmically simplify and propagate GeoJson data to downstream systems to affect package labeling and ultimately drive roll-out of a new routing model for all Amazon Delivery Stations in the United States and Europe.
 \item Worked on full stack React based web app that allows users to define/configure geographic areas for Delivery Stations
 \end{rSubsection}
@@ -90,8 +91,7 @@ Software \& Tools & LaTeX, bash, vim, React, RDS/SQL, AWS, JTS/JSTS, GNU + Linux
 
 \begin{rSection}{Projects} \itemsep -2pt
 \begin{rSubsection}{RhythmRunner}{github.com/bbeck13/RhythmRunner}{c++/opengl}{}
-\item Organized and manged small group project to create a cross platform video game using opengl
-\item Created level editor / procedural generated levels based on audio signals so that players movement was in time with music
+\item Organized and manged small group project to create a cross platform video game using opengl. Created level editor / procedural generated levels based on audio signals so that players movement was in time with music
 
 \end{rSubsection}
 
@@ -99,8 +99,10 @@ Software \& Tools & LaTeX, bash, vim, React, RDS/SQL, AWS, JTS/JSTS, GNU + Linux
 
 %----------------------------------------------------------------------------------------
 \begin{rSection}{Extra-Curricular}
-\begin{rSubsection} {Outrigger Canoeing}{}{}{}
-\item I compete in paddling and sailing races in outrigger canoes Hawaii, Tahiti, and Southern California I've even been to one in Canada.
+\begin{rSubsection} {Outrigger Canoeing}{June 1994 - Present}{}{}
+\item Sailing is an exercise in preserving and illuminating the history and culture of my homeland, the Pacific.
+\item \href{https://www.patagonia.com/blog/2018/02/a-thirty-five-year-voyage-back-in-time/}{https://www.patagonia.com/blog/2018/02/a-thirty-five-year-voyage-back-in-time/}
+\item \href{https://hanahou.com/22.2/outrigger-odyssey}{'https://hanahou.com/22.2/outrigger-odyssey'}
 \end{rSubsection}
 \end{rSection}
 \end{document}
