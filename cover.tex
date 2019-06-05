@@ -1,0 +1,35 @@
+%\title{Example letter using the newlfm LaTeX package}
+%
+% See http://texblog.org/2013/11/11/latexs-alternative-letter-class-newlfm/
+% and http://www.ctan.org/tex-archive/macros/latex/contrib/newlfm
+% for more information.
+%
+\documentclass[12pt,stdletter,orderfromtodate,sigleft]{newlfm}
+\usepackage{blindtext, xfrac}
+ 
+\newlfmP{dateskipbefore=40pt}
+\newlfmP{sigsize=40pt}
+\newlfmP{sigskipbefore=40pt}
+ 
+\newlfmP{Headlinewd=0pt,Footlinewd=0pt}
+ 
+\namefrom{Braden Beck}
+ 
+\addrto{%
+1 Grand Avenue \\
+San Luis Obispo \\
+CA 93407 U.S.A.
+}
+ 
+\dateset{June 5, 2019}
+ 
+\greetto{Application for the position of Data Engineer,}
+ 
+\closeline{Thanks,}
+ 
+\begin{document}
+\begin{newlfm}
+Cal Poly Grad here! I remember my first day of CSC 365 (introduction to databases) as if it where yesterday. While I had some fundamental issues with the nature of the class (too little material for 10 weeks!) it was one of my formative experiences with big data technologies. Since then I've been working at Amazon building many ETL pipelines and working with systems at a massive scale. Remember when the price of and Amazon prime membership changed from \$99 to \$119? That was me! Not the business decision of course but as a member of the Prime software team in San Luis Obispo I implemented the technical rollout of the price change for Amazons millions of customers. I've been working in the distributed computing setting since before I graduated and have lots of experience with AWS and other cloud infrastructure platforms, data modeling, web apps for data visualization / manipulation / reporting, and yes data lakes as well. I'm pretty good at scripting but my language of choice is not python and frankly I was taken aback when Cal Poly decided to make this language part of the introductory curriculum for computer science students. These days I try to use lisp variants like Racket for scripting but I probably use shell scripts like bash, perl, or go a lot more. I currently work on a full stack application that manages geographic data for all of Amazons fulfillment network in North America and Europe but I'd love to work for my Alma mater! I believe I have all the necessary qualifications for this job and I'd really like a chance to give back to the university, its students, and staff. My contact info and credentials are in my resume please reach out if you have any questions!
+\end{newlfm}
+\end{document}
+
